@@ -37,16 +37,7 @@ Before you begin, ensure you have the following installed:
 - npm or yarn
 - Git
 
-## 🔧 Installation & Setup
-
-1. **Clone the repository**
-
-\`\`\`bash
-git clone https://github.com/yourusername/habit-tracker.git
-cd habit-tracker
-\`\`\`
-
-2. **Install dependencies**
+1. **Install dependencies**
 
 \`\`\`bash
 npm install
@@ -56,7 +47,7 @@ npm install
 yarn install
 \`\`\`
 
-3. **Configure Auth0**
+2. **Configure Auth0**
 
 - Create an account on [Auth0](https://auth0.com/) if you don't have one
 - Create a new application in the Auth0 dashboard
@@ -74,7 +65,7 @@ redirect_uri: typeof window !== "undefined" ? window.location.origin : "",
 }
 \`\`\`
 
-4. **Start the development server**
+3. **Start the development server**
 
 \`\`\`bash
 npm run dev
@@ -84,7 +75,7 @@ npm run dev
 yarn dev
 \`\`\`
 
-5. **Open your browser**
+4. **Open your browser**
 
 Navigate to [http://localhost:3000](http://localhost:3000) to see the application running.
 
