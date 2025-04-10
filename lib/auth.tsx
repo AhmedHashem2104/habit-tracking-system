@@ -9,7 +9,7 @@ const auth0Config: Auth0ProviderOptions = {
   domain: "dev-f1hbv678endiqp6t.us.auth0.com", // Replace with your Auth0 domain
   clientId: "V209H6cNbS2fQsH30pEqgfDeC0q6F7hi", // Replace with your Auth0 client ID
   authorizationParams: {
-    redirect_uri: "http://localhost:3000", // Replace with your redirect URI
+    redirect_uri: "https://habit-tracking-system-ochre.vercel.app", // Replace with your redirect URI
   },
 }
 
